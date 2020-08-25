@@ -1,17 +1,17 @@
 /*gerais*/
-main{
+body{
     width: 100vw;
     margin-top: 54px;
     display: flex;
     justify-content: flex-end;
 }
-main > section {
+main{
     padding-top: 30px;
     margin-right: 35vw;
 }
 
 /*navbar*/
-.navbar{
+nav{
     width: 100vw;
     height: 54px;
     background: red;
@@ -19,6 +19,39 @@ main > section {
     top: 0;
     left: 0;
     z-index: 2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav section{
+    width: 940px;
+    margin-right: calc(35% - 300px);
+    background: white;
+    display: flex;
+}
+.esquerda, .centro, .direita{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*menu superior lado esquerdo*/
+.esquerda{
+    width: 160px;
+}
+.esquerda img{
+    width: 105px;
+    padding-top: 10px;
+}
+.esquerda ion-icon{
+    margin-left: -2px;
+    font-size: 30px;
+    color: #1c1c1c;
+}
+.esquerda div{
+    height: 35px;
+    width: 1px;
+    background: #ccc;
 }
 
 /*recomendados*/
