@@ -1,20 +1,23 @@
 /*gerais*/
 body{
     width: 100vw;
-    margin-top: 54px;
+    margin-top: 84px;
     display: flex;
     justify-content: flex-end;
+    background: #fafafa;
 }
 main{
-    padding-top: 30px;
     margin-right: 35vw;
+}
+nav, .story, .post{
+    border: 1px solid #dbdbdb;
+    background: #ffffff;
 }
 
 /*navbar*/
 nav{
     width: 100vw;
     height: 54px;
-    background: red;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,8 +29,9 @@ nav{
 nav section{
     width: 940px;
     margin-right: calc(35% - 300px);
-    background: white;
+    background: transparent;
     display: flex;
+    justify-content: space-between;
 }
 .esquerda, .centro, .direita{
     display: flex;
@@ -38,6 +42,7 @@ nav section{
 /*menu superior lado esquerdo*/
 .esquerda{
     width: 160px;
+    max-width: 100%;
 }
 .esquerda img{
     width: 105px;
@@ -51,8 +56,21 @@ nav section{
 .esquerda div{
     height: 35px;
     width: 1px;
-    background: #ccc;
+    background: #dbdbdb;
 }
+/*menu superior centro*/
+
+
+/*menu superior lado direito*/
+.direita{
+    width: 200px;
+    max-width: 100%;
+}
+.direita ion-icon{
+    font-size: 30px;
+    color: #1c1c1c;
+}
+
 
 /*recomendados*/
 .recomendados{
@@ -64,14 +82,12 @@ nav section{
     position: fixed;
     top: 84px;
     left: 65vw;
-    border: 1px solid red;
 }
 
 /*feed*/
 .feed{
     margin: 0px 30px 0px 0px;
     width: 610px;
-    background: rebeccapurple;
 }
 
 /*story*/
@@ -80,7 +96,6 @@ nav section{
     height: 120px;
     margin-bottom: 24px;
     padding: 16px 0px;
-    background: green;
 }
 
 /*seção de posts*/
