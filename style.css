@@ -5,6 +5,7 @@ body{
     display: flex;
     justify-content: flex-end;
     background: #fafafa;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 main{
     margin-right: 35vw;
