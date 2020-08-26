@@ -59,7 +59,44 @@ nav section{
     background: #dbdbdb;
 }
 /*menu superior centro*/
-
+#search{
+    border: none;
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    padding: 0px;
+    color: #dbdbdb;
+    text-align: left;
+    /*width: 100%;*/
+    width: calc(50% + 25px);
+    height: 100%;
+}
+#search:focus{
+    width: calc(100% - 21px);
+    border-radius: 3px;
+    padding: 5px;
+    border: none;
+    outline-style: none;
+    color: black;
+    text-align: left;
+}
+.centro{
+    text-align: center;
+    width: 215px;
+    height: 30px;
+    border: 1px solid #dbdbdb;
+    background-color: #d3d3d33a;
+    border-radius: 3px;
+    position: relative;
+    justify-content: flex-end;
+    align-self: center;
+    display: flex;
+}
+.centro ion-icon{
+    font-size: 15px;
+    color: gray;
+    padding: 3px;
+}
 
 /*menu superior lado direito*/
 .direita{
