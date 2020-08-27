@@ -14,6 +14,9 @@ nav, .story, .post{
     border: 1px solid #dbdbdb;
     background: #ffffff;
 }
+.sem-borda{
+    background-image: none;
+}
 
 /*navbar*/
 nav{
@@ -142,7 +145,7 @@ nav section{
     font-size: 12px;
     padding-top: 2px;
 }
-/*recomendados*/
+/*sugestoes*/
 .recomendados .sugestoes{
     width: 100%;
     flex-grow: 1;
@@ -184,6 +187,12 @@ nav section{
     border-radius: 50%;
     margin-right: 10px;
     margin-left: 2px;
+}
+.perfil .com-borda{
+    background-image: url(imagens/stories_background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding:  3px 1px 1px 1px;
 }
 .sugestoes .texto{
     flex-grow: 1;
