@@ -31,8 +31,9 @@ nav{
     align-items: center;
 }
 nav section{
-    width: 955px;
-    margin-right: calc((100% - 915px) / 2);
+    width: 940px;
+    margin-right: calc((100% - 940px) / 2);
+    margin-left: calc((100% - 940px) / 2);
     background: transparent;
     display: flex;
     justify-content: space-between;
@@ -250,10 +251,8 @@ input:focus + span{
 
 
 
-
 /*feed*/
 .feed{
-    margin: 0px 25px 0px 0px;
     width: 615px;
 }
 
@@ -311,9 +310,6 @@ input:focus + span{
     border-radius: 50%;
     color: white;
     text-shadow: 0.9em 0.9em 0.9em black
-    filter: saturate(100%);
-    background: transparent;
-    font-size: 30px;
 }
 
 
