@@ -124,22 +124,20 @@ nav section{
     flex-direction: column;
 }
 /*perfil*/
-.recomendados .perfil{
+.recomendados .meu-perfil{
     width: 100%;
     height: 56px;
     padding-left: 5px;
     display: flex;
     align-items: center;
 }
-.perfil img{
+.recomendados .meu-perfil img{
     width: 56px;
     height: 56px;
     border-radius: 50%;
+    margin-right: 10px;
 }
-.perfil div {
-    margin-left: 20px;
-}
-.perfil .user{
+.recomendados .user{
     color: #8E8E8E;
     font-size: 12px;
     padding-top: 2px;
@@ -149,7 +147,56 @@ nav section{
     width: 100%;
     flex-grow: 1;
     margin: 8px 0px;
-    background: blue;
+}
+.sugestoes .descricao{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 8px;
+}
+.descricao div:first-child{
+    color: #8E8E8E;
+    font-weight: 600;
+    font-size: 14px;
+}
+.descricao div:last-child{
+    color: rgba(var(--i1d,38,38,38),1);
+    align-self: flex-end;
+    line-height: 14px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.sugestoes .perfil{
+    padding: 8px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.sugestoes .perfil > div{
+    width: 100%;
+    padding: 8px 0px;
+    display: flex;
+    align-items: center;
+}
+.sugestoes .perfil img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 2px;
+}
+.sugestoes .texto{
+    flex-grow: 1;
+}
+.seguir{
+    border: none;
+    color: #0095F6;
+    font-weight: 600;
+    font-size: 12px;
+    margin-left: 5px;
+    padding: 0px;
+    text-align: end;
+    background: transparent;
 }
 /*informações*/
 .recomendados .informacoes{
@@ -157,7 +204,27 @@ nav section{
     height: 124px;
     margin-top: 12px;
     padding-bottom: 38px;
-    background: green;
+    font-size: 11px;
+    color: #c7c7c7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.informacoes ul{
+    width: 100%;
+    height: 54px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+}
+.informacoes li{
+    flex-shrink: 0;
+    margin: 0px 2px;
+}
+.informacoes li:nth-last-child(n+2)::after{
+    content: "•";
+    padding-left: 2px;
 }
 
 /*feed*/
