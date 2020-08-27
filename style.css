@@ -304,6 +304,7 @@ input:focus + span{
 }
 .story ion-icon{
     position: absolute;
+    font-size: 30px;
     top: 45px;
     left: 580px;
     z-index: 1;
