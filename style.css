@@ -102,6 +102,9 @@ h3{
 input:focus + span{
     display: block;
 }
+#Search::-webkit-search-cancel-button{
+    display: none;
+}
 .apagar{
     display: none;
 }
