@@ -338,7 +338,6 @@ h6.user{
 /*topo do article*/
 article{
     width: 100%;
-    height: 959px;
     margin-bottom: 60px;
     padding: 0px;
     display: flex;
@@ -406,6 +405,33 @@ article .foto-video{
     display: inline-flex;
     border: none;
     cursor: pointer;
+}
+.likes{
+    width: 100%;
+    height: 24px;
+    margin-bottom: 8px;
+    padding 0px 16px;
+    background: red;
+}
+.comentarios{
+    width: 100%;
+    height: 124px;
+    padding: 0px 16px;
+    background: green;
+}
+.data{
+    width: 100%;
+    padding-left: 16px;
+    margin-bottom: 4px;
+    backgrpund: blue;
+}
+.comentar{
+    width: 100%;
+    height: 56px;
+    padding: 0px 16px;
+    margin-top: 4px;
+    border-top: 1px solid #dbdbdb;
+    background: gray;
 }
 
 
