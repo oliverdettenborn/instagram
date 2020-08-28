@@ -311,6 +311,9 @@ input:focus + span{
     text-transform: lowercase;
     width: 100%;
 }
+li.seu-story{
+    display: none;
+}
 h6.user{
     overflow: hidden;
     text-overflow: ellipsis;

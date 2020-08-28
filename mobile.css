@@ -97,4 +97,20 @@
     article{
         margin-bottom: 20px;
     }
+    .seu-story{
+        display: initial;
+        position: relative;
+    }
+    .seu-story .add-story{
+        display: initial;
+        color: #0091fb;
+        background-color: white;
+        font-size: 25px;
+        border-radius: 50%;
+        border: 0.1px solid white;
+        position: absolute;
+        right: 3px;
+        top: 45px;
+        padding: -1px;
+    }
 }
