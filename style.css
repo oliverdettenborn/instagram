@@ -434,9 +434,36 @@ article .foto-video{
 }
 .comentarios{
     width: 100%;
-    height: 124px;
     padding: 0px 16px;
-    background: green;
+    text-transform: lowercase;
+}
+.comentarios > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 18px;
+    width: 100%;
+}
+.comentarios span{
+    margin-left: 5px;
+    color: #262626;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+.mais-comentarios a{
+    color: #8E8E8E;
+    font-size: 14px;
+    vertical-align: baseline;
+}
+.comentario{
+    position: relative;
+}
+.comentario ion-icon{
+    font-size: 12px;
+    position: absolute;
+    top: 3;
+    right: 0;
+    cursor: pointer;
 }
 .data{
     width: 100%;
