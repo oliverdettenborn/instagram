@@ -9,6 +9,7 @@ body{
 }
 main{
     margin-right: calc((100% - 300px) / 2);
+    width: 615px;
 }
 nav, .story, .post{
     border: 1px solid #dbdbdb;
@@ -257,11 +258,6 @@ input:focus + span{
 }
 
 
-
-/*feed*/
-.feed{
-    width: 615px;
-}
 
 /*story*/
 .story{
