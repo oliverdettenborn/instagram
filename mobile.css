@@ -49,6 +49,7 @@
         position: fixed;
         top: 0px;
         left: 0px;
+        z-index: 3;
         backface-visibility: hidden;
         display: flex;
         justify-content: space-between;
@@ -92,5 +93,8 @@
     }
     .story ion-icon{
         display: none;
+    }
+    article{
+        margin-bottom: 20px;
     }
 }
