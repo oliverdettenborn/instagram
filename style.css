@@ -19,6 +19,12 @@ nav, .story, article{
 .sem-borda{
     background-image: none;
 }
+h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #262626;
+    text-transform: lowercase;
+}
 
 /*navbar*/
 .desktop{
@@ -304,7 +310,9 @@ input:focus + span{
     padding: 2px 3px 0px 0px;
     text-transform: lowercase;
     width: 100%;
-    text-overflow: hidden;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 .story ion-icon{
     position: absolute;
@@ -368,9 +376,6 @@ article .topo{
     margin-left: 14px;
     justify-content: space-between;
     align-items: center;
-}
-.topo h3{
-    
 }
 
 /*meio do article*/
