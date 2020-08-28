@@ -97,7 +97,7 @@
     article{
         margin-bottom: 20px;
     }
-    .seu-story{
+    li.seu-story{
         display: initial;
         position: relative;
     }
