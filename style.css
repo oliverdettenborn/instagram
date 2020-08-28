@@ -313,11 +313,12 @@ input:focus + span{
     position: absolute;
     font-size: 30px;
     top: 45px;
-    left: 580px;
+    right: 7px;
     z-index: 1;
     border-radius: 50%;
-    color: white;
-    text-shadow: 0.9em 0.9em 0.9em black
+    color: #f8ffff;
+    background-color: transparent;
+    box-shadow: 0 0 5em rgba(0, 0, 0, 0.4);
 }
 
 

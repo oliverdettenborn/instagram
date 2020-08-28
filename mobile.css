@@ -86,4 +86,7 @@
         border: 2px solid #1c1c1c;
         border-radius: 10px;
     }
+    .story ion-icon{
+        display: none;
+    }
 }
