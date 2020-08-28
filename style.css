@@ -501,8 +501,6 @@ article .foto-video{
     outline: none;
     padding: 0px;
     cursor: pointer;
-    writing-mode: vertical-lr;
-    flex-wrap: wrap;
 }
 .comentar input:focus{
     outline: none;
