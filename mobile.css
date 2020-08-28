@@ -17,6 +17,10 @@
         margin-right: calc((100% - 615px) / 2);
         margin-left: calc((100% - 615px) / 2);
     }
+    article .foto-video{
+        width: 100%;
+        flex-shrink: 0;
+    }
 }
 
 @media (max-width: 629px){
