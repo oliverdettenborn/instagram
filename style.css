@@ -19,7 +19,7 @@ nav, .story, .post{
 }
 
 /*navbar*/
-nav{
+.desktop{
     width: 100%;
     height: 54px;
     position: fixed;
@@ -30,8 +30,15 @@ nav{
     justify-content: flex-end;
     align-items: center;
 }
-nav section{
+.mobile-top{
+    display: none;
+}
+.mobile-bottom{
+    display: none;
+}
+.desktop section{
     width: 940px;
+    max-width: 100%;
     margin-right: calc((100% - 940px) / 2);
     margin-left: calc((100% - 940px) / 2);
     background: transparent;
@@ -261,7 +268,7 @@ input:focus + span{
     width: 100%;
     height: 120px;
     margin-bottom: 24px;
-    padding: 15px 0px;
+    padding: 10px 0px;
     position: relative;
 }
 .story ul{
@@ -299,8 +306,8 @@ input:focus + span{
     text-align: center;
     padding: 2px 3px 0px 0px;
     text-transform: lowercase;
-    width: 80px;
-    overflow: hidden;
+    width: 100%;
+    text-overflow: hidden;
 }
 .story ion-icon{
     position: absolute;

@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Instagram</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
 </head>
 <body>
     <!----------------------------------menu do topo--------------------------------->
-    <nav>
+    <nav class="desktop">
         <section>
             <div class="esquerda">
                 <figure><a href="index.html">
@@ -32,6 +33,20 @@
                 <a href="#"><ion-icon name="person-outline"></ion-icon></a>
             </div>
         </section>
+    </nav>
+
+    <!----------------------------------menus mobile--------------------------------->
+    <nav class="mobile-top">
+        <a href="#"><ion-icon name="camera-outline"></ion-icon></a>
+        <a href="index.html"><img src="imagens/logo.png" alt="Logo do Instagram" class="logo-mobile"></a>
+        <a href="#"><ion-icon name="paper-plane-outline"></ion-icon></a>
+    </nav>
+    <nav class="mobile-bottom">
+        <a href="#"><ion-icon name="home"></ion-icon></a>
+        <a href="#"><ion-icon name="search-outline"></ion-icon></a>
+        <a href="#"><ion-icon class="add-borda" name="add-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="heart-outline"></ion-icon></a>
+        <a href="#"><ion-icon name="person-outline"></ion-icon></a>
     </nav>
 
     <main>
@@ -133,7 +148,7 @@
                         <div class="com-borda">
                             <img src="imagens/perfil/Albert.jpg" alt="foto da albert">
                         </div>
-                        <h6 class="user">Albert-Eins...</h6>
+                        <h6 class="user">AlbertEinsten</h6>
                     </a></li>
                     <li><a href="#">
                         <div class="com-borda">
@@ -145,7 +160,7 @@
                         <div class="com-borda">
                             <img src="imagens/perfil/Bob.jpg" alt="foto Bob">
                         </div>
-                        <h6 class="user">Bob_nao_esp...</h6>
+                        <h6 class="user">Bobzinho</h6>
                     </a></li>
                     <li><a href="#">
                         <div class="com-borda">
