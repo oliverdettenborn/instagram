@@ -383,9 +383,10 @@ article .topo{
 /*meio do article*/
 article .foto-video{
     width: 615px;
-    height: 615px;
     flex-shrink: 0;
-    background: green;
+}
+.foto-video img, .foto-video video{
+    width: 100%;
 }
 /*base do article*/
 .interação{
