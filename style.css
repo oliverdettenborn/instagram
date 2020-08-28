@@ -11,9 +11,10 @@ main{
     margin-right: calc((100% - 300px) / 2);
     width: 615px;
 }
-nav, .story, .post{
+nav, .story, article{
     border: 1px solid #dbdbdb;
     background: #ffffff;
+    border-radius: 3px;
 }
 .sem-borda{
     background-image: none;
@@ -323,8 +324,80 @@ input:focus + span{
 .posts{
     width: 100%;
     max-width: 100%;
-    height: 1000px;
-    background: blue;
+}
+/*topo do article*/
+article{
+    width: 100%;
+    height: 959px;
+    margin-bottom: 60px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-shrink: 0;
+}
+article .topo{
+    width: 100%;
+    height: 60px;
+    padding: 10px;
+    flex-shrink: 0;
+    border-bottom: 1px solid #dbdbdb;
+    display: flex;
+    justify-content: space-between;
+}
+.posts .topo img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topo .com-borda{
+    background-image: url(imagens/stories_background.png);
+    width: 38px;
+    height: 38px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 3px;
+}
+.topo div:last-child{
+    flex-grow: 1;
+    height: 38px;
+    display: flex;
+    margin-left: 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+.topo h3{
+    
+}
+
+/*meio do article*/
+article .foto-video{
+    width: 615px;
+    height: 615px;
+    flex-shrink: 0;
+    background: green;
+}
+/*base do article*/
+.interação{
+    width: 100%;
+    height: 40px;
+    flex-shrink: 0;
+    margin-top: 4px;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+.interação button{
+    padding: 8px;
+    font-size: 30px;
+    color: #1c1c1c;
+    background: transparent;
+    display: inline-flex;
+    border: none;
+    cursor: pointer;
 }
 
 
