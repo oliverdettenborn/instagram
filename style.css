@@ -310,6 +310,8 @@ input:focus + span{
     padding: 2px 3px 0px 0px;
     text-transform: lowercase;
     width: 100%;
+}
+h6.user{
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
