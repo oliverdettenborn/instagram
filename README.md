@@ -31,7 +31,7 @@ Languages:<br>
 ### Deploy
 
 The application layout is available on Github Pages:<br>
-<a href='https://thaliadettenborn.github.io/globo.com/' target="_blank" ><img src='https://img.shields.io/badge/github-pages%20-%23F05033.svg?&style=for-the-badge&logo=github&logoColor=white'></a>
+<a href='https://thaliadettenborn.github.io/instagram/' target="_blank" ><img src='https://img.shields.io/badge/github-pages%20-%23F05033.svg?&style=for-the-badge&logo=github&logoColor=white'></a>
 
 
 ### Author
