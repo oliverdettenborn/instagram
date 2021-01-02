@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/imagens/logo.png" width="175" alt="" />
+  <img src="/imagens/instagram_icon.png" width="175" alt="" />
 </p>
 
 # Homepage Instagram Desktop
